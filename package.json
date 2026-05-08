@@ -1,0 +1,14 @@
+{
+  "name": "food-delivery-app",
+  "version": "1.0.0",
+  "description": "A full-stack food delivery app built with React and Node.js",
+  "scripts": {
+    "start:server": "cd server && npm start",
+    "start:client": "cd client && npm start",
+    "dev:server": "cd server && npm run dev",
+    "install:all": "npm install && cd client && npm install && cd ../server && npm install"
+  },
+  "keywords": ["food-delivery", "react", "nodejs", "express", "mongodb"],
+  "author": "Gupta-ng",
+  "license": "MIT"
+}
